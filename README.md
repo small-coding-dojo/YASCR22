@@ -11,3 +11,7 @@ You can find more about code retreats at [the coderetreat website](https://www.c
 - 18:00 End of debriefing 
 
 Please "register" via the owncloud poll sent out seperately.
+
+## Other Preparation Materials
+
+- [Shared Folder in NextCloud](git@github.com:small-coding-dojo/YASCR22.git)
