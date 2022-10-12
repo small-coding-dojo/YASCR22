@@ -22,7 +22,7 @@ You can find more about code retreats in general at the [Code Retreat](https://w
 | 09:45 | (2:45h) Topic 1 - 2 sessions |
 | 12:30 | Lunch (maybe [Lunch & Learn](https://www.indeed.com/career-advice/career-development/brown-bag-lunch) style) |
 | 13:30 | (3h) Topic 2 - 2 Sessions |
-| 16:30 | Big round reflection, revision and exchange |
+| 16:30 | Reflection, revision and exchange of the whole group |
 | 17:15 | Good Bye |
 
 ### Schedule for Each Session
