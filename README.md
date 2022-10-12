@@ -2,16 +2,11 @@
 
 ## What is YASCR22?
 
-YASCR22 is a code retreat, organized and facilitated by members of the [Small Coding Dojo](https://github.com/small-coding-dojo/) organization.
+YASCR22 is a **remote code retreat**, organized and facilitated by members of the [Small Coding Dojo](https://github.com/small-coding-dojo/) organization.
 
 This particular retreat will **focus more on practicing** and less on teaching.
 
 The topic will be **refactoring**.
-
-It is
-
-- an opportunity for the facilitators to learn how to set up such a thing
-- a remote code retreat
 
 You can find more about code retreats in general at the [Code Retreat](https://www.coderetreat.org/the-workshop/) website.
 
