@@ -39,7 +39,7 @@ You can find more about code retreats in general at the [Code Retreat](https://w
 
 ## Other Preparation Materials
 
-- [Shared Folder in NextCloud](git@github.com:small-coding-dojo/YASCR22.git)
+- [Shared Folder in NextCloud](https://oc.serv4us.de/f/102382) - This is an internal link for the organizers.
 
 ## Further Links and References
 
