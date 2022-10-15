@@ -2,6 +2,7 @@
 #
 # Deploy a single docker container to CloudRun
 #
+set -euxf
 
 # Source helper scripts
 . "${0%/*}/read-env.sh"
