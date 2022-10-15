@@ -11,8 +11,8 @@ uncommenting the proper variables in [.env](.env).
 The following scripts are used to deploy and delete projector images in Cloud
 Run:
 
-- [deploy-service.sh](deploy-service.sh) - Deploy a JetBrains Projector image.
-- [delete-service.sh](delete-service.sh) - Delete a running projector image.
+- [deploy-services.sh](deploy-services.sh) - deploy the configured number of JetBrains Projector images.
+- [delete-services.sh](delete-services.sh) - delete all running projector* images.
 
 ## Helper Scripts
 
