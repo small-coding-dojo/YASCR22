@@ -41,6 +41,7 @@ You can find more about code retreats in general at the [Code Retreat](https://w
 
 - [Shared Folder in NextCloud](https://oc.serv4us.de/f/102382) - This is an internal link for the organizers.
 - [JetBrains Projector](JetBrains-Projector.md) - Describes our JetBrains Projector setup.
+- [scripts](scripts) - Automates our JetBrains Projector setup.
 
 ## Further Links and References
 
