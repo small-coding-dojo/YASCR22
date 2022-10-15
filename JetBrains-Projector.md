@@ -39,7 +39,7 @@ docker run --rm -p 8887:8887 -it --name projector-idea-c registry.jetbrains.team
 ```
 
 ```ad-info
-Note, that the image will be slow on an Apple Silicon based mac.
+Note, that the image will be slow on an Apple Silicon based mac, because it uses the `amd64` platform. At the time of writing, `arm64v8` was not available.
 ```
 
 ### Building the JetBrains Projector Docker Container Locally
