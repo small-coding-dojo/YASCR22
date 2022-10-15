@@ -40,6 +40,7 @@ You can find more about code retreats in general at the [Code Retreat](https://w
 ## Other Preparation Materials
 
 - [Shared Folder in NextCloud](https://oc.serv4us.de/f/102382) - This is an internal link for the organizers.
+- [JetBrains Projector](JetBrains-Projector.md)
 
 ## Further Links and References
 
