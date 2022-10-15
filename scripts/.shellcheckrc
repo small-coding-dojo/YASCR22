@@ -1,0 +1,3 @@
+# Configuration of the [shellcheck](https://www.shellcheck.net/) static
+# analysis tool for shell scripts
+external-sources=true
