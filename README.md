@@ -43,6 +43,12 @@ You can find more about code retreats in general at the [Code Retreat](https://w
 - [JetBrains Projector](JetBrains-Projector.md) - Describes our JetBrains Projector setup.
 - [scripts](scripts) - Automates our JetBrains Projector setup.
 
+## Technical Preparation
+
+In order to launch the projector instances you need access to the associated Google project.
+To add colleagues, navigate to the [IAM management](https://console.cloud.google.com/iam-admin/iam?project=yascr-365610)
+pane and add them with role **Owner**.
+
 ## Further Links and References
 
 - [CodeRetreat.org - The Workshop](https://www.coderetreat.org/the-workshop/)
