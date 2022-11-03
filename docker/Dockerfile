@@ -1,4 +1,4 @@
-FROM registry.jetbrains.team/p/prj/containers/projector-idea-c
+FROM registry.jetbrains.team/p/prj/containers/projector-rider
 
 USER root
 RUN apt-get clean
