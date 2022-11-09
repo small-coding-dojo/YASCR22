@@ -1,10 +1,15 @@
 FROM registry.jetbrains.team/p/prj/containers/projector-rider
 
 USER root
-RUN apt-get clean
-RUN apt-get update
-RUN apt-get install sudo
-RUN apt-get install -y curl
+
+RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb \
+    && dpkg -i packages-microsoft-prod.deb \
+    && rm packages-microsoft-prod.deb \
+    && apt-get clean \
+    && apt-get update \
+    && apt-get install -y curl \
+    && apt-get install -y dotnet-sdk-6.0
+
 RUN curl -sL install.mob.sh | sh
 
 RUN mkdir -p /home/projector-user/.ssh
