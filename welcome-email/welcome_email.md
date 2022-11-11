@@ -1,53 +1,56 @@
-# Willkommen zu Yet Another Small Code Retreat #YASCR22
+# Welcome to Yet Another Small Code Retreat #YASCR22
 
-Hallo {name},
+Hello {name},
 
-vielen Dank für Dein Interesse am #YASCR22 😀. 10 Menschen möchten am 30.11. gemeinsam Coden üben. Deshalb wird das Event
-sicher stattfinden.
+Thank you for your interest in #YASCR22 😀. 10 people would like to practice coding together on 11/30. Therefore, the
+event will surely take place.
 
-Mit dieser Email erhältst Du Informationen zum Thema des Retreats und zu den technischen Voraussetzungen.
+With this email you will receive information about the topic of the retreat and the technical requirements.
 
-**WICHTIG:**
+**IMPORTANT:**
 
-- Falls Du am 30.11. von 09:00 - 17:15 Uhr nicht teilnehmen kannst, informiere uns bitte frühzeitig. Wir möchten dies
-  bei der Vorbereitung berücksichtigen.
+- If you can't attend on 11/30 from 09:00 - 17:15, please inform us early. We would like to take this into account
+  during the preparation.
 
-- Optional: Wenn Du einen GitHub Account hast, dann sende uns bitte Deine ID. Wir tragen Dich dann als Contributor im
-  Repository für den Retreat ein.
+- Optional: If you have a GitHub account, please send us your ID. We will then add you as a contributor to the
+  repository for the retreat.
 
-**Thema: Refactoring**
+**Topic: Refactoring**
 
-Wir haben für #YASCR22 das Thema "Refactoring" ausgewählt. Wir bereiten zurzeit eine Refactoring Kata vor, welche Ihr in
-Gruppen bearbeiten werdet. Als Programmiersprache haben wir C# ausgewählt (.net 6).
+We have chosen the topic "Refactoring" for #YASCR22. We are currently preparing a refactoring kata, which you will work
+on in groups. As programming language we have chosen C# (.net 6).
 
-**Technische Voraussetzungen: Chrome, Zoom.us, Screensharing**
+**Technical requirements: Chrome, Zoom.us, screen sharing**.
 
-Um am Workshop teilzunehmen, benötigst Du mindestens
+To participate in the workshop you need at least
 
-- Einen Chrome Browser
-- [Zoom.us](https://zoom.us) mit Erlaubnis zum Screensharing
+- A Chrome browser
+- [Zoom.us](https://zoom.us) with permission for screensharing
 
-und darüber hinaus optional
+and optionally
 
-- einen [GitHub](https://github.com) account
-- einen [GitPod](https://gitpod.io) account
+- a [GitHub](https://github.com) account
+- a [GitPod](https://gitpod.io) account
 
-Zum Experimentieren haben wir zwei alternative, online nutzbare IDEs eingerichtet:
+For experimentation, we have set up two alternative IDEs that can be used online:
 
-- Einmal JetBrains Rider über den JetBrains Projector und Google CloudRun
-- Und wenn Du einen [GitHub](https://github.com) Account hast, kannst Du im Browser auch VisualStudio Code als IDE
-  über [GitPod](https://gitpod.io) benutzen. Damit das klappt, sende uns bitte vorab Deine GitHub ID, damit wir Dich im
-  Repository als Contributor eintragen können.
+- JetBrains Rider via JetBrains Projector and Google CloudRun.
+- And if you have a [GitHub](https://github.com) account, you can also use VisualStudio Code in the browser as IDE
+  via [GitPod](https://gitpod.io). For this to work, please send us your GitHub ID in advance so we can add you to the
+  repository as a contributor.
 
-Beide IDEs können .net6 Projekte und Tests compilieren und ausführen. Für die Übergabe in der Gruppenarbeit ist das auf
-git aufsetzende [mob.sh](https://mob.sh) installiert.
+Both IDEs can compile and run .net6 projects and tests. For the handover in the group work the git based
+[mob.sh](https://mob.sh) is installed.
 
-**Wie geht es weiter?**
+**What happens next?**
 
-Unsere Vorbereitungen kannst Du auf GitHub verfolgen: https://github.com/small-coding-dojo/yascr22 . Hier findest Du
-auch detaillierte Infos zum technischen Setup ;-) Wir werden uns bald wieder bei Dir melden.
+You can follow our preparations on GitHub: https://github.com/small-coding-dojo/yascr22 . Here you can find
+detailed information about the technical setup ;-) We will get back to you soon.
 
-Wir freuen uns schon sehr auf unseren ersten selbst veranstalteten Code Retreat.
+We are really looking forward to our first self-hosted code retreat.
 
-Viele Grüße
-Falk, Michael und Stefan
+Kind regards
+Falk, Michael and Stefan
+
+--
+Translated with www.DeepL.com/Translator (free version) ❤️
