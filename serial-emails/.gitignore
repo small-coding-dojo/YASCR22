@@ -1,3 +1,6 @@
+# Keep the email_template.md only as lorem ipsum
+email_template.md
+
 # Never publish the real recipients.csv
 recipients.csv
 
