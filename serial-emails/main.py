@@ -58,7 +58,7 @@ def parse_email_template(filename, encoding):
 
 
 if __name__ == '__main__':
-    email_template = parse_email_template("welcome_email.md", "utf8")
+    email_template = parse_email_template("email_template.md", "utf8")
     recipients = parse_recipients_csv("recipients.csv", "utf8")
 
     from_address = "The YASCR22 Code Retreat Organizers <yascr22@boos.systems>"

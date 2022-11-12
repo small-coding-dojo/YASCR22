@@ -5,7 +5,7 @@ Generate serial emails from a markdown template and a recipients list.
 ## Overview
 
 This python3 application generates one email per entry in the `recipients.csv` file. Each email is
-constructed from the markdown template [welcome_email.md](./welcome_email.md). The application replaces the `{name}`
+constructed from the markdown template [email_template.md](./email_template.md). The application replaces the `{name}`
 expression in the template by each recipient name taken from the csv file. It passes each email to
 [MailMate](https://freron.com/) using the [emate](https://manual.mailmate-app.com/emate) cli tool shipped with
 [MailMate](https://freron.com/).
