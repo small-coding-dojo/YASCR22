@@ -1,5 +1,7 @@
 # Subject of Email
 
+The following text acts as an example. Replace it with the email you want to send.
+
 Lorem ipsum,
 
 dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
