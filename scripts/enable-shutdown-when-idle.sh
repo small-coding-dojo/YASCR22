@@ -14,8 +14,14 @@ read_env
 
 for INDEX in $(seq 1 ${NUM_INSTANCES}); do
     SERVICE_NAME="${IMAGE}-${INDEX}"
-    gcloud run update "${SERVICE_NAME}" \
+    gcloud beta run services update "${SERVICE_NAME}" \
       --project yascr-365610  \
+      --image "europe-west1-docker.pkg.dev/yascr-365610/docker-repository/${IMAGE}" \
+      --port 8887 \
+      --memory 16G \
+      --cpu 4 \
       --cpu-throttling \
-      --min-instances 0
+      --min-instances 0 \
+      --max-instances 1 \
+      --region europe-west1
 done
