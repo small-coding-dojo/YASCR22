@@ -20,14 +20,24 @@ Run:
 
 ### Keep Containers Active When Idle
 
+#### Problem: Auto-Shut-Down of Idle Projector Containers
+
 By default, CloudRun shuts idle projector containers down after 15 minutes.
 As a consequence, users have to re-configure Rider.
+
+#### Solution: Disable Auto-Shut-Down in CloudRun Configuration
 
 Deploying containers using the flags `--no-cpu-throttling` and `--min-instances 1`
 we prevent the automatic shut down.
 
 Details about configuring the CloudRun deployment are explained in the associated
 [CPU allocation (services) documentation](https://cloud.google.com/run/docs/configuring/cpu-allocation?hl=en).
+
+#### Caveat: Changing the CloudRun Service Configuration Results in Re-Deployment
+
+Caveat: Changing the configuration of a CloudRun deployment results in a re-deployment.
+After a configuration change, e.g. by using the `enable-...` and `disable...` scripts,
+you have a fresh container instance and need to configure Rider and the project again.
 
 #### Test the Default Deployment and Enable/Disable-... Scripts
 
@@ -47,9 +57,8 @@ AND Google Metrics show that the container has been billable for the entire peri
 ```gherkin
 SCENARIO 2: Enable Auto-Shutdown
 GIVEN normal deployment
-AND the projector configuration is completed
-
 WHEN I execute the enable-... script
+AND I complete the projector configuration
 AND I wait for > 15 minutes without interaction
 AND I reload the projector browser page
 
@@ -61,10 +70,10 @@ AND Google Metrics show that the container was not billable for the entire perio
 ```gherkin
 SCENARIO 3: Disable Auto-Shutdown
 GIVEN normal deployment
-AND the projector configuration is completed
 AND I have executed the enable-... script
 
 WHEN I execute the disable-... script
+AND I complete the projector configuration
 AND I wait for > 15 minutes without interaction
 AND I reload the projector browser page
 
