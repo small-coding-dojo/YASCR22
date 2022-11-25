@@ -13,6 +13,8 @@ Run:
 
 - [deploy-services.sh](deploy-services.sh) - deploy the configured number of JetBrains Projector images.
 - [delete-services.sh](delete-services.sh) - delete all running projector* images.
+- [disable-shutdown-when-idle.sh](disable-shutdown-when-idle.sh) - prevent containers from shutting down when idle.
+- [enable-shutdown-when-idle.sh](enable-shutdown-when-idle.sh) - allow containers auto-shut-down after 15 minutes idle.
 
 ## Deployment Aspects
 
