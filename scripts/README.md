@@ -41,46 +41,64 @@ you have a fresh container instance and need to configure Rider and the project 
 
 #### Test the Default Deployment and Enable/Disable-... Scripts
 
+Links for the checks required in the Gherkin `THEN` paragraphs below:
+
+- [Google CloudRun Service Configuration Page for Projector-Rider-2](https://console.cloud.google.com/run/deploy/europe-west1/projector-rider-2?project=yascr-365610)
+- [Google CloudRun Metrics for Projector-Rider-2](https://console.cloud.google.com/run/detail/europe-west1/projector-rider-2/metrics?project=yascr-365610)
+
 ```gherkin
 SCENARIO 1: Default Deployment with Always-On
-GIVEN normal deployment
-AND the projector configuration is completed
+GIVEN normal deployment of 2 projector-rider instances 
+AND the projector configuration is completed for projector-rider-2
 AND > 15 minutes passed without interaction
 
-WHEN I reload the projector browser page
+WHEN I reload the projector-rider-2 browser page using the same URL
 
-THEN the projector state is the same as before the reload,
+THEN the state of projector-rider-2 is the same as before the reload,
 i.e. I don't need to configure the IDE again
-AND Google Metrics show that the container has been billable for the entire period of time
+AND the service configuration page for projector-rider-2 shows:
+    `CPU is always allocated`, `Minimum number of instances 1`, `Maximum number of instances 1`
+AND metrics show that the `projector-rider-2` has been billable for the entire period of time
 ```
 
 ```gherkin
 SCENARIO 2: Enable Auto-Shutdown
-GIVEN normal deployment
+GIVEN normal deployment of 2 projector-rider instances
 WHEN I execute the enable-... script
-AND I complete the projector configuration
+AND I complete the projector configuration for projector-rider-2
 AND I wait for > 15 minutes without interaction
-AND I reload the projector browser page
+AND I reload the projector-rider-2 browser page using the same URL
 
-THEN the projector state differs from before the reload,
+THEN the state of projector-rider-2 differs from before the reload,
 i.e. I need to configure the IDE again
-AND Google Metrics show that the container was not billable for the entire period of time
+AND the service configuration page for projector-rider-2 shows:
+    `CPU is only allocated during request processing`, `Minimum number of instances 0`, `Maximum number of instances 1`
+AND metrics show that the `projector-rider-2` has NOT been billable for the entire period of time
 ```
 
 ```gherkin
 SCENARIO 3: Disable Auto-Shutdown
-GIVEN normal deployment
+GIVEN normal deployment of 2 projector-rider instances
 AND I have executed the enable-... script
 
 WHEN I execute the disable-... script
-AND I complete the projector configuration
+AND I complete the projector configuration for projector-rider-2
 AND I wait for > 15 minutes without interaction
-AND I reload the projector browser page
+AND I reload the projector-rider-2 browser page using the same URL
 
-THEN the projector state is the same as before the reload,
+THEN the state of projector-rider-2 is the same as before the reload,
 i.e. I don't need to configure the IDE again
-AND Google Metrics show that the container has been billable for the entire period of time
+AND the service configuration page for projector-rider-2 shows:
+    `CPU is always allocated`, `Minimum number of instances 1`, `Maximum number of instances 1`
+AND metrics show that the `projector-rider-2` has been billable for the entire period of time
 ```
+
+Note:
+
+The specifications explicitly take metrics from projector-rider-2 in order to prevent an error in looping through all
+configured instances. I have not considered edge cases in the tests (i.e. test the last instance,
+test the first instance, etc.), because of time and quite low risk - assuming that we will not change the
+code structure of the scripts!
 
 ## Helper Scripts
 
