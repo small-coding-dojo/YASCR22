@@ -60,7 +60,13 @@ Multiple JetBrains IDEs run in associated
 [Google CloudRun](https://console.cloud.google.com/run)
 
 To be able to start and stop the deployment, facilitators need to
-[install the gcloud CLI](https://cloud.google.com/sdk/docs/install) for their operating system.
+[install the gcloud CLI](https://cloud.google.com/sdk/docs/install) for their operating system. The
+[gcloud beta](https://cloud.google.com/sdk/gcloud/reference/beta) commands need to be installed together
+with (or after) the CLI:
+
+```shell
+gcloud components install beta
+```
 
 ### Launching the Projector Instances
 
