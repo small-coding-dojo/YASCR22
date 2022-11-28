@@ -8,7 +8,7 @@ We invite you to join us in [zoom](https://us02web.zoom.us/j/89931437006?pwd=VXc
 
 Have some coffee or other beverage at hand, maybe some snacks available, so you are well nurtured while we are beginning the day.
 
-We have a [miro workspace](----) prepared, where you could already place a personal picture of you or another type of identifying image [here](--avatar frame link---). Having a picture of you available would be awesome, since we would like to use those as avatars throughout the retreat for example to find working pairs for the excercises.
+We have a miro workspace prepared (you will get the link tomorrow in the morning), where you can place a personal picture of you or another type of identifying image. Having a picture of you available would be awesome, since we would like to use those as avatars throughout the retreat for example to find working pairs for the excercises.
 
 If you are totally new to miro, watch the first video on this page, to get a bit accustomed to the tool:
 [Getting Started](https://help.miro.com/hc/en-us/articles/360017571954-How-to-start-collaboration-with-Miro) (3:30 min)
