@@ -13,7 +13,7 @@ We have a miro workspace prepared, where you can place a personal picture of you
 If you are totally new to miro, watch the first video on this page, to get a bit accustomed to the tool:
 [Getting Started](https://help.miro.com/hc/en-us/articles/360017571954-How-to-start-collaboration-with-Miro) (3:30 min)
 
-In case you have a GitHub account and did not share it with us, now would be a good time.
+In case you have a [GitHub](https://github.com) account and did not share it with us, now would be a good time: [Send us your GitHub ID](mailto:yascr22@boos.systems?subject=Meine%20GitHub%20ID%20für%20#YASCR22&body=Meine%20GitHub%20ID%20ist:%20GITHUB%20ID).
 
 Stay safe, have a good day and see you tomorrow
 Stefan, Michael and Falk
