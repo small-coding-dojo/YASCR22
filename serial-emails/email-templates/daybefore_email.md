@@ -4,7 +4,7 @@ Hello {name}!
 
 Tomorrow we will get together to learn and have fun in our code retreat.
 
-We invite you to join us in [zoom](https://us02web.zoom.us/j/89931437006?pwd=VXcxblhEZExKa2lLQ2NXVnBQOENEUT09) already at 8:45, since we would like to start quite on time at 9 o'clock. Please have a current [zoom client installed](https://support.zoom.us/hc/en-us/articles/4415294177549-Downloading-the-Zoom-desktop-client-and-mobile-app), since the web client doesn't play well with breakoutrooms and you would not be able to switch rooms on your own. 
+We invite you to join us in [zoom](https://us02web.zoom.us/j/89931437006?pwd=VXcxblhEZExKa2lLQ2NXVnBQOENEUT09) already at 8:45, since we would like to start quite on time at 9 o'clock. Please have a current [zoom client installed](https://support.zoom.us/hc/en-us/articles/4415294177549-Downloading-the-Zoom-desktop-client-and-mobile-app), since the web client doesn't play well with breakoutrooms and you would not be able to switch rooms on your own. Use the [zoom test meeting](http://zoom.us/test) to check your setup.
 
 Have some coffee or other beverage at hand, maybe some snacks available, so you are well nurtured while we are beginning the day.
 
