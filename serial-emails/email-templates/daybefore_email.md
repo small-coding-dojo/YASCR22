@@ -1,4 +1,4 @@
-# The day before
+# The day before the #YASCR22 code retreat
 
 Hello {name}!
 
