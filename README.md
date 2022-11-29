@@ -16,6 +16,7 @@ You can find more about code retreats in general at the [Code Retreat](https://w
 
 | Start | Activity |
 | --- | --- |
+| 08:45 | Open doors, prepare avatars on the miro board |
 | 09:00 | Check technical setup, welcome, wait for everyone to "arrive" |
 | 09:15 | Presentation of the exercise(s) |
 | 09:30 | Distributing the tools (containers, IDEs, rooms, miro, etc.) |
